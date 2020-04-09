@@ -1,0 +1,44 @@
+body{
+    padding: 30px 10px;
+}
+#main{
+
+    background-color:whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+#img-div{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+#img-caption{
+    text-align: center;
+
+}
+#tribute-info{
+    text-align: left;
+    width: 50%;
+}
+ul li{
+    line-height: 1.2rem;
+    font-size: 16px;
+}
+blockquote{
+    font-style: italic;
+    font-size: 16px;
+}
+h3:last-child{
+    font-weight: bold;
+}
+@media screen and (min-width:500px){
+    img{
+        max-width: 100%;
+        width: 100%;
+    }
+}
